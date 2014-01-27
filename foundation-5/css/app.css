@@ -1,4 +1,20 @@
 body {background-color: #137f99;}
+
+.top-bar {background-color: #eeeaea;}
+.top-bar-section li a:not(.button) {
+    padding: 0px 15px;
+    line-height: 45px;
+    background: none repeat scroll 0% 0% #eeeaea;
+}
+
+.top-bar-section li a:not(.button):hover {
+    padding: 0px 15px;
+    line-height: 45px;
+    background: none repeat scroll 0% 0% #e8e3e3;
+}
+.top-bar-section ul li > a {color: #4D4D4D;}
+.top-bar-section ul li > a:hover {color: #4D4D4D;}
+
 #home-hero h1, #home-hero h2, #home-hero h1 small, #home-hero h4{color:#FFF; font-family: 'Lato', sans-serif; font-weight: 100;}
 
 #home-hero h1{line-height: 4.5rem; margin-top: 8rem; font-size: 6rem;margin-bottom: 3rem;}
@@ -34,12 +50,15 @@ h2 {margin: 3.2rem 0 2.5rem 0;}
 /* - - - - - - - - - - - - M E D I A    Q U E R I E S - - - - - - - - - - - -  */
 /*Small screens*/
 @media only screen { 
-#home-hero h1{line-height: 2.5rem; margin-top: 1rem; font-size: 3rem;margin-bottom: 1rem;}
-#home-hero h4{font-weight: 200;}
+
 
 } /* Define mobile styles */
 
-@media only screen and (max-width: 40em) { } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
+@media only screen and (max-width: 40em) { 
+	#home-hero h1{line-height: 2.5rem; margin-top: 1rem; font-size: 4rem;margin-bottom: 2rem;}
+	#home-hero h2, #home-hero h4{font-weight: 300;}
+	
+} /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 /* // Medium screens */
 @media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
