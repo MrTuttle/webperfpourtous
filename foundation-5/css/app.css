@@ -1,5 +1,9 @@
-body {background-color: #137f99;}
-
+body {background-color: #137f99; color:#FFF; font-family: 'Lato', sans-serif; font-weight: 100;}
+.fixed {background-color:#fff;padding: 1rem; width: 100%;}
+.fixed ul {display: block; float: right; margin-top: 1rem; list-style: none;}
+.fixed li {display: inline-block;padding: 0.5rem;}
+.fixed a {color: #4d4d4d; font-weight: 400; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1rem;}
+.fixed a:hover {color: #A3855E;}
 .top-bar {background-color: #eeeaea; height:64px; padding-top: 4px;}
 .top-bar.expanded .title-area { background-color: #eeeaea; height: 64px;}
 .top-bar-section ul {margin-top: 0; background-color: #eeeaea;}
@@ -17,6 +21,7 @@ body {background-color: #137f99;}
 }
 .top-bar-section ul li > a {color: #4D4D4D;}
 .top-bar-section ul li > a:hover {color: #4D4D4D;}
+#home-hero {margin-top: 7.5rem;}
 
 #home-hero h1, #home-hero h2, #home-hero h1 small, #home-hero h4{color:#FFF; font-family: 'Lato', sans-serif; font-weight: 100;}
 
@@ -60,6 +65,7 @@ h2 {margin: 3.2rem 0 2.5rem 0;}
 @media only screen and (max-width: 40em) { 
 	#home-hero h1{line-height: 2.5rem; margin-top: 1rem; font-size: 4rem;margin-bottom: 2rem;}
 	#home-hero h2, #home-hero h4{font-weight: 300;}
+	.fixed ul {width: 90%; margin: 0 auto; text-align: center; float: none;}
 	
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
