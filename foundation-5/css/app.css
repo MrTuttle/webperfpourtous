@@ -43,6 +43,7 @@ h2 {margin: 3.2rem 0 2.5rem 0;}
 #home-hero p{color: #003F4E ; font-family: 'Lato', sans-serif; font-weight: 300;}
 
 #video {background-color:#E7AC45;}
+
 #testimonial {background-color:#E6E6E6;}
 #map {background-color:#F9F9F9;}
 #footer { background-color: #666; padding: 1.5rem 0;}
@@ -54,6 +55,8 @@ h2 {margin: 3.2rem 0 2.5rem 0;}
     padding: 24px 0px 10px;
     color: rgb(102,102,102);
 }
+.filigrane {background:url(../img/bg_ecusson.png) no-repeat center -150px ;}
+
 .footer-bottom ul.links li a {color: rgb (102, 102, 102);}
 .footer-bottom ul.links li a:hover {color: rgb (119, 119, 119);}
 
