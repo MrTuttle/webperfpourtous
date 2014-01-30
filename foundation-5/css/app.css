@@ -4,6 +4,12 @@ body {background-color: #137f99; color:#FFF; font-family: 'Lato', sans-serif; fo
 .fixed li, #footer li {display: inline-block;padding: 0 0.5rem;}
 .fixed a, #footer a {color: #4d4d4d; font-weight: 400; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1rem;}
 .fixed a:hover, #footer a {color: #A3855E;}
+
+.fixed li {background: url(../img/icone42x.png) no-repeat; height: 42px; padding-left: 42px; padding-top: 8px;}
+li.temoignage {}
+li.manif {background-position-y: -42px;}
+li.sign {background-position-y: -84px;}
+
 .top-bar {background-color: #eeeaea; height:64px; padding-top: 4px;}
 .top-bar.expanded .title-area { background-color: #eeeaea; height: 64px;}
 .top-bar-section ul {margin-top: 0; background-color: #eeeaea;}
