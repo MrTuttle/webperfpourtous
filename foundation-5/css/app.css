@@ -1,15 +1,24 @@
 body {background-color: #137f99; color:#FFF; font-family: 'Lato', sans-serif; font-weight: 100;}
+/*
 .fixed {background-color:#fff;padding: 1rem; width: 100%;}
 .fixed ul, #footer ul {display: block; float: right; margin-top: 1rem; list-style: none;}
 .fixed li, #footer li {display: inline-block;padding: 0 0.5rem;}
 .fixed a, #footer a {color: #4d4d4d; font-weight: 400; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.1rem;}
 .fixed a:hover, #footer a {color: #A3855E;}
+.fixed a span {color: #A3855E;}
+*/
 
-.fixed li {background: url(../img/icone42x.png) no-repeat; height: 42px; padding-left: 42px; padding-top: 8px;}
+#logotype {font-size: 1.2rem; line-height: 1rem; margin-top: 1rem;}
+#logotype span {font-size: 0.8rem;}
+
+
+li.temoignage, li.manif,li.sign {background: url(../img/icone42x.png) no-repeat;}
+li.name {background: url(../img/logo.png) no-repeat;}
 li.temoignage {}
 li.manif {background-position-y: -42px;}
 li.sign {background-position-y: -84px;}
 
+/*
 .top-bar {background-color: #eeeaea; height:64px; padding-top: 4px;}
 .top-bar.expanded .title-area { background-color: #eeeaea; height: 64px;}
 .top-bar-section ul {margin-top: 0; background-color: #eeeaea;}
@@ -27,7 +36,7 @@ li.sign {background-position-y: -84px;}
 }
 .top-bar-section ul li > a {color: #4D4D4D;}
 .top-bar-section ul li > a:hover {color: #4D4D4D;}
-#home-hero {margin-top: 7.5rem;}
+*/
 
 #home-hero h1, #home-hero h2, #home-hero h1 small, #home-hero h4{color:#FFF; font-family: 'Lato', sans-serif; font-weight: 100;}
 
@@ -76,7 +85,7 @@ h2 {margin: 3.2rem 0 2.5rem 0;}
 @media only screen and (max-width: 40em) { 
 	#home-hero h1{line-height: 2.5rem; margin-top: 1rem; font-size: 4rem;margin-bottom: 2rem;}
 	#home-hero h2, #home-hero h4{font-weight: 300;}
-	.fixed ul, #footer ul {width: 90%; margin: 0 auto; text-align: center; float: none;}
+/* 	.fixed ul, #footer ul {width: 90%; margin: 0 auto; text-align: center; float: none;} */
 	
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 

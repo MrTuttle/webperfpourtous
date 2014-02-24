@@ -10,6 +10,9 @@
   <!-- If you are using CSS version, only link these 2 files, you may add app.css to use for your overrides if you like. -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/foundation.css">
+  
+<!--   		<link rel="stylesheet" type="text/css" href="css/default.css" /> -->
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
 
   <!-- If you are using the gem version, you need this only -->
   <link rel="stylesheet" href="css/app.css">
@@ -21,12 +24,41 @@
 
 </head>
 <body>
+			<div class="cbp-af-header">
+				<div class="cbp-af-inner">
+					<h1>LA WEBPERF POUR TOUS</h1>
+					<nav>
+						<a href="#">Broccoli</a>
+						<a href="#">Almonds</a>
+						<a href="#">Pears</a>
+						<a href="#">Oranges</a>
+					</nav>
+				</div>
+			</div>
+<!--
+<div class="fixed">
+  <nav class="top-bar" data-topbar>
+	  <ul class="title-area">
+	  	<li class="name"><h1>la webperf pour tous</h1></li>
+	  	 <li class="toggle-topbar menu-icon"><a href="#">Menu</a></li>
+	  </ul>
+	  <section class="top-bar-section">
+	  	<ul class="right">
+	  		<li class="temoignage"><a href="#video"> Témoignages</a></li>
+			<li class="manif"><a href="#map"> Manifestations</a></li>
+			<li class="sign"><a href="#map"> Inscription</a></li>
+	  	</ul>
+	  </section>
+  </nav>
+</div>
+-->
+<!--
 <div class="fixed">
 	<div class="row">
-	<div class="medium-5 column">
-<a href="#index"><img src="img/logoTxtMid.png" alt="logoTxt"></a>
+	<div class="medium-7 column"><img src="img/logo.png" alt="logoTxt" class="left">
+<a href="#index" id="logotype">LA WEBPERF POUR TOUS<br><span>Pour des sites web plus rapides</span></a>
 	</div>
-	<div class="medium-7 column">
+	<div class="medium-5 column">
 		<ul>
 			<li class="temoignage"><a href="#video"> Témoignages</a></li>
 			<li class="manif"><a href="#map"> Manifestations</a></li>
@@ -35,6 +67,7 @@
 	</div>
 	</div>
 </div>
+-->
   <!-- NAV -->
 <!--
   <div class="fixed">
@@ -47,7 +80,7 @@
   </div>
 -->
   <!-- body content here -->
-<div id="index">
+<div id="index" style="margin-top:14em">
 <section id="home-hero" class="hero" style="background-color:#1a85a1; background-image:url(img/hero.jpg); height:475px;">
 	<div class="row">
 		<div class="medium-4 large-5 column">
@@ -294,5 +327,8 @@ $(document).foundation({
   }
 });
 </script>
+		<!-- classie.js by @desandro: https://github.com/desandro/classie -->
+		<script src="js/classie.js"></script>
+		<script src="js/cbpAnimatedHeader.min.js"></script>
 </body>
 </html>
