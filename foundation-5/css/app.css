@@ -17,6 +17,7 @@ li.name {background: url(../img/logo.png) no-repeat;}
 li.temoignage {}
 li.manif {background-position-y: -42px;}
 li.sign {background-position-y: -84px;}
+blockquote {font-weight:200; color: #000;}
 
 /*
 .top-bar {background-color: #eeeaea; height:64px; padding-top: 4px;}
@@ -49,7 +50,11 @@ h2 {margin: 3.2rem 0 2.5rem 0;}
 
 
 
-#home-hero p{color: #003F4E ; font-family: 'Lato', sans-serif; font-weight: 300;}
+#home-hero p{color:#00313d /*#003F4E*/; font-family: 'Lato', sans-serif; font-weight: 300;}
+#hero p {font-weight: 400; color: #004354;}
+#hero p b{font-weight: 400; color: #001f26;}
+#hero ul {color: #55a2d6;}
+
 
 #video {background-color:#E7AC45;}
 
