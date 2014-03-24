@@ -1,0 +1,41 @@
+
+
+@font-face{
+	font-family:'ProximaNova-RegularIt';
+	src:url('/fonts/26C811_0_0.eot');
+	src:url('/fonts/26C811_0_0.eot?#iefix') format('embedded-opentype'),url('/fonts/26C811_0_0.woff') format('woff'),url('/fonts/26C811_0_0.ttf') format('truetype'),url('/fonts/26C811_0_0.svg#wf') format('svg');
+}
+
+@font-face{
+	font-family:'ProximaNova-Semibold';
+	src:url('/fonts/26C811_1_0.eot');
+	src:url('/fonts/26C811_1_0.eot?#iefix') format('embedded-opentype'),url('/fonts/26C811_1_0.woff') format('woff'),url('/fonts/26C811_1_0.ttf') format('truetype'),url('/fonts/26C811_1_0.svg#wf') format('svg');
+}
+
+@font-face{
+	font-family:'ProximaNova-Regular';
+	src:url('/fonts/26C811_2_0.eot');
+	src:url('/fonts/26C811_2_0.eot?#iefix') format('embedded-opentype'),url('/fonts/26C811_2_0.woff') format('woff'),url('/fonts/26C811_2_0.ttf') format('truetype'),url('/fonts/26C811_2_0.svg#wf') format('svg');
+}
+
+.small{
+	font-size:14px;
+	line-height:1.5;
+	color:#777;
+}
+
+html{
+	border-top:solid 10px #ffd975;
+}
+
+body{
+	margin:0 auto;
+	padding:20px 0;
+	background:#FFF;
+	position:relative;
+	font-family:'ProximaNova-Regular',sans-serif;
+	font-size:16px;
+	line-height:22px;
+	color:#333333;
+	font-weight:normal;
+}

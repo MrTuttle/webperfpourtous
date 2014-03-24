@@ -5,7 +5,7 @@
 	width: 100%;
 	background: #f6f6f6;
 	z-index: 10000;
-	height: 100px;
+/* 	height: 100px; */
 	overflow: hidden;
 	-webkit-transition: height 0.3s;
 	-moz-transition: height 0.3s;
@@ -87,7 +87,10 @@ background-position-y: -84px;
 	margin: 0 0 0 0px;
 	font-size: 1em;
 	color: #4d4d4d; font-weight: 400; text-transform: uppercase; font-size: 0.8rem; letter-spacing: 0.05rem;
-	padding: 15px 43px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-right: 10px;
+	padding-left: 43px;
 }
 a.temoignages {	background: url(../img/icone42x.png) no-repeat;}
 a.manifestations {	background: url(../img/icone42x.png) no-repeat 0 -42px;}
@@ -106,7 +109,7 @@ a.inscription {	background: url(../img/icone42x.png) no-repeat 0 -84px;}
 }
 
 .cbp-af-header.cbp-af-header-shrink {
-	height: 60px;
+	height: 81px;
 }
 
 .cbp-af-header.cbp-af-header-shrink img,
@@ -130,11 +133,12 @@ a.inscription {	background: url(../img/icone42x.png) no-repeat 0 -84px;}
 
 	.cbp-af-header img,
 	.cbp-af-header nav {
-		display: block;
+/* 		display: block; */
 		margin: 10px auto;
 		text-align: center;
-		float: none;
+/* 		float: none; */
 	}
+	.cbp-af-header nav {display: none;}
 
 	.cbp-af-header img,
 	.cbp-af-header nav a {

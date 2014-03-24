@@ -10,6 +10,7 @@ body {background-color: #137f99; color:#FFF; font-family: 'Lato', sans-serif; fo
 
 #logotype {font-size: 1.2rem; line-height: 1rem; margin-top: 1rem;}
 #logotype span {font-size: 0.8rem;}
+#headerLogo {max-width: 30%; margin-top: 2rem;}
 
 
 li.temoignage, li.manif,li.sign {background: url(../img/icone42x.png) no-repeat;}
@@ -17,7 +18,8 @@ li.name {background: url(../img/logo.png) no-repeat;}
 li.temoignage {}
 li.manif {background-position-y: -42px;}
 li.sign {background-position-y: -84px;}
-blockquote {font-weight:200; color: #000;}
+blockquote {font-weight:300; color: #000;}
+
 
 /*
 .top-bar {background-color: #eeeaea; height:64px; padding-top: 4px;}
@@ -39,12 +41,14 @@ blockquote {font-weight:200; color: #000;}
 .top-bar-section ul li > a:hover {color: #4D4D4D;}
 */
 
-#home-hero h1, #home-hero h2, #home-hero h1 small, #home-hero h4{color:#FFF; font-family: 'Lato', sans-serif; font-weight: 100;}
+#home-hero h1, #home-hero h2, #home-hero h1 small, #home-hero h4{color:#FFF; font-family: 'Lato', sans-serif;}
+#home-hero h1 {font-weight: 100;}
 
 #home-hero h1{line-height: 4.5rem; margin-top: 8rem; font-size: 6rem;margin-bottom: 3rem;}
 #home-hero h1 small {line-height: 1rem;}
 h2 {margin: 3.2rem 0 2.5rem 0;}
 #widget-twitter {}
+#menuNav {}
 
 
 
@@ -60,8 +64,9 @@ h2 {margin: 3.2rem 0 2.5rem 0;}
 
 #testimonial {background-color:#E6E6E6;}
 #map {background-color:#F9F9F9;}
-#footer { background-color: #666; padding: 1.5rem 0;}
-#footer a {color: #B3B3B3;}
+#footer { background-color: #404040; padding: 1.5rem 0;}
+#footer a, #footer ul {font-weight: 200;}
+#footer a {color: #B3B3B3; }
 #logoWhite {display: block; margin-bottom: 1rem;}
 
 .footer-bottom {
@@ -80,6 +85,43 @@ h2 {margin: 3.2rem 0 2.5rem 0;}
 .footer-bottom ul.links li a {color: rgb (102, 102, 102) !important; text-decoration: underline;}
 .footer-bottom ul.links li a:hover {color: rgb (119, 119, 119);}
 
+#footer a, #footer ul, #footer li {font-weight: 300;}
+#footer li {color:#fff;}
+#footer a {color:#59b8ef;}
+
+
+.orbit-bullets-container {
+    text-align: center !important;
+}
+/* animation logo .svg  */
+#logoBloc {width:35%; }
+#circle {max-width:18%; margin-top:1rem;}
+#circleTxt {max-width:75%; margin-left:0.7rem; margin-top:1.2rem;}
+
+@-webkit-keyframes rotation {
+  from { -webkit-transform: rotate(0deg) }
+  to { -webkit-transform: rotate(360deg) }
+}
+}
+@-moz-keyframes rotation {
+  0%   { -moz-transform: rotate(0deg) }
+  100% { -moz-transform: rotate(360deg) }
+}
+@-o-keyframes rotation {
+  0%   { -o-transform: rotate(0deg) }
+  100% { -o-transform: rotate(360deg) }
+}
+@keyframes rotation {
+  0%   { transform: rotate(0deg) }
+  100% { transform: rotate(360deg) }
+}
+#circle {
+  -webkit-animation: rotation 4s infinite linear; /* Safari 4+ */
+  -moz-animation:    rotation 4s infinite linear; /* Fx 5+ */
+  -o-animation:      rotation 4s infinite linear; /* Opera 12+ */
+  animation:         rotation 4s infinite linear; /* IE 10+ */
+}
+
 /* - - - - - - - - - - - - M E D I A    Q U E R I E S - - - - - - - - - - - -  */
 /*Small screens*/
 @media only screen { 
@@ -88,16 +130,44 @@ h2 {margin: 3.2rem 0 2.5rem 0;}
 } /* Define mobile styles */
 
 @media only screen and (max-width: 40em) { 
-	#home-hero h1{line-height: 2.5rem; margin-top: 1rem; font-size: 4rem;margin-bottom: 2rem;}
+	#home-hero h1{line-height: 3.2rem; margin-top: 1rem; font-size: 4rem;margin-bottom: 2rem; -webkit-font-smoothing: subpixel-antialiased;}
 	#home-hero h2, #home-hero h4{font-weight: 300;}
+	#menuNav {display: none;}
+	blockquote {font-weight:300; color: #000;}
+	#footer a, #footer ul, #footer li {font-weight: 300;}
+	#footer li {color:#fff;}
+	#footer a {color:#59b8ef;}
+	#headerLogo {max-width: 95%; margin-top: 0.5rem;}
+	#logoBloc {margin:0 auto; width:98%;}
+	#circle {max-width:18%; margin-top:0.2rem; float: left;}
+	#circleTxt {max-width:75%; margin-left:0.1rem; margin-top:0.2rem; float: right;}
+
+	
+/* 		.cbp-af-header img {max-width: 2000px;} */
+
+
+
+
 /* 	.fixed ul, #footer ul {width: 90%; margin: 0 auto; text-align: center; float: none;} */
 	
 } /* max-width 640px, mobile-only styles, use when QAing mobile issues */
 
 /* // Medium screens */
-@media only screen and (min-width: 40.063em) { } /* min-width 641px, medium screens */
+@media only screen and (min-width: 40.063em) { 
+/* 		#headerLogo {max-width: 50%;} */
+		.cbp-af-header img {max-width: 50%; margin-top: 0.5rem;}
 
-@media only screen and (min-width: 40.063em) and (max-width: 64em) { } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
+} /* min-width 641px, medium screens */
+
+@media only screen and (min-width: 40.063em) and (max-width: 64em) { 
+		#home-hero h2, #home-hero h4{font-weight: 300;}
+			blockquote {font-weight:300; color: #000;}
+				#footer a, #footer ul, #footer li {font-weight: 300;}
+	#footer li {color:#fff;}
+	#footer a {color:#59b8ef;}
+
+
+} /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
 
 /* // Large screens */
 @media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
