@@ -142,7 +142,6 @@ h2 {margin: 3.2rem 0 2.5rem 0;}
 	#circle {max-width:18%; margin-top:0.2rem; float: left;}
 	#circleTxt {max-width:75%; margin-left:0.1rem; margin-top:0.2rem; float: right;}
 
-	
 /* 		.cbp-af-header img {max-width: 2000px;} */
 
 
@@ -156,6 +155,9 @@ h2 {margin: 3.2rem 0 2.5rem 0;}
 @media only screen and (min-width: 40.063em) { 
 /* 		#headerLogo {max-width: 50%;} */
 		.cbp-af-header img {max-width: 50%; margin-top: 0.5rem;}
+		
+		
+    
 
 } /* min-width 641px, medium screens */
 
@@ -165,6 +167,7 @@ h2 {margin: 3.2rem 0 2.5rem 0;}
 				#footer a, #footer ul, #footer li {font-weight: 300;}
 	#footer li {color:#fff;}
 	#footer a {color:#59b8ef;}
+	#home-hero h1 {font-size: 4.5rem; line-height: 3rem;}
 
 
 } /* min-width 641px and max-width 1024px, use when QAing tablet-only issues */
@@ -172,7 +175,8 @@ h2 {margin: 3.2rem 0 2.5rem 0;}
 /* // Large screens */
 @media only screen and (min-width: 64.063em) { } /* min-width 1025px, large screens */
 
-@media only screen and (min-width: 64.063em) and (max-width: 90em) { } /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
+@media only screen and (min-width: 64.063em) and (max-width: 90em) {		#home-hero h1 {font-size: 6rem;}
+ } /* min-width 1024px and max-width 1440px, use when QAing large screen-only issues */
 
 /* // XLarge screens */
 @media only screen and (min-width: 90.063em) { } /* min-width 1441px, xlarge screens */
